@@ -1,0 +1,259 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        /Layout for TeamA
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <TextView
+                android:id="@+id/nameA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="8dp"
+                android:text="Player A"
+                android:textColor="#616161"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/team_a_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameA"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="3"
+                android:textColor="#000000"
+                android:textSize="64sp" />
+
+            <Button
+                android:id="@+id/button_a_black"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundbuttonblack"
+                android:layout_below="@id/team_a_score"
+                android:layout_alignParentLeft="true"
+                android:onClick="blackA"
+                 />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundbuttonpink"
+                android:layout_below="@id/team_a_score"
+                android:layout_alignParentRight="true"
+                android:onClick="pinkA"
+                />
+
+            <Button
+                android:id="@+id/button_a_blue"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundbuttonblue"
+                android:layout_below="@id/button_a_black"
+                android:layout_marginTop="16dp"
+                android:layout_alignParentLeft="true"
+                android:onClick="blueA"
+                />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundbuttonbrown"
+                android:layout_below="@id/button_a_black"
+                android:layout_marginTop="16dp"
+                android:layout_alignParentRight="true"
+                android:onClick="brownA"
+                />
+
+            <Button
+                android:id="@+id/button_a_green"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundbuttongreen"
+                android:layout_below="@id/button_a_blue"
+                android:layout_marginTop="16dp"
+                android:layout_alignParentLeft="true"
+                android:onClick="greenA"
+               />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundbuttonyellow"
+                android:layout_below="@id/button_a_blue"
+                android:layout_marginTop="16dp"
+                android:layout_alignParentRight="true"
+                android:onClick="yellowA"
+               />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundbuttonred"
+                android:layout_below="@id/button_a_green"
+                android:layout_marginTop="16dp"
+                android:layout_centerHorizontal="true"
+                android:onClick="redA"
+                 />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray" />
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <TextView
+                android:id="@+id/nameB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="8dp"
+                android:text="Player B"
+                android:textColor="#616161"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/team_b_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameB"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="3"
+                android:textColor="#000000"
+                android:textSize="64sp" />
+
+            <Button
+                android:id="@+id/button_b_black"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundbuttonblack"
+                android:layout_below="@id/team_b_score"
+                android:layout_alignParentLeft="true"
+                android:onClick="blackB"
+               />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundbuttonpink"
+                android:layout_below="@id/team_b_score"
+                android:layout_alignParentRight="true"
+                android:onClick="pinkB"
+                />
+
+            <Button
+                android:id="@+id/button_b_blue"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundbuttonblue"
+                android:layout_below="@id/button_b_black"
+                android:layout_marginTop="16dp"
+                android:layout_alignParentLeft="true"
+                android:onClick="blueB"
+                />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundbuttonbrown"
+                android:layout_below="@id/button_b_black"
+                android:layout_marginTop="16dp"
+                android:layout_alignParentRight="true"
+                android:onClick="brownB"
+               />
+
+            <Button
+                android:id="@+id/button_b_green"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundbuttongreen"
+                android:layout_below="@id/button_b_blue"
+                android:layout_marginTop="16dp"
+                android:layout_alignParentLeft="true"
+                android:onClick="greenB"
+                />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundbuttonyellow"
+                android:layout_below="@id/button_b_blue"
+                android:layout_marginTop="16dp"
+                android:layout_alignParentRight="true"
+                android:onClick="yellowB"
+               />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundbuttonred"
+                android:layout_below="@id/button_b_green"
+                android:layout_marginTop="16dp"
+                android:layout_centerHorizontal="true"
+                android:onClick="redB"
+               />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:background="#ff5533"
+            android:text="FOUL"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:background="#bbbbbb"
+            android:onClick="over"
+            android:text="OVER"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:background="#0a6c03"
+            android:onClick="resetScore"
+            android:text="START" />
+    </LinearLayout>
+</RelativeLayout>
