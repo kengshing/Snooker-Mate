@@ -39,15 +39,19 @@ public class MainActivity extends AppCompatActivity {
      */
 
     public void redA(View view) {
-        if (lastBall != "redA") {
-            scoreTeamA = scoreTeamA + 1;
-            displayForTeamA(scoreTeamA);
-            potRed = potRed + 1;
-        } else {
-            scoreTeamB = scoreTeamB + 1;
-            displayForTeamB(scoreTeamB);
+
+        if (potRed < 15) {
+
+            if (lastBall != "redA") {
+                scoreTeamA = scoreTeamA + 1;
+                displayForTeamA(scoreTeamA);
+                potRed = potRed + 1;
+            } else {
+                scoreTeamB = scoreTeamB + 1;
+                displayForTeamB(scoreTeamB);
+            }
+            lastBall = "redA";
         }
-        lastBall = "redA";
     }
 
     public void blackA(View view) {
@@ -121,15 +125,17 @@ public class MainActivity extends AppCompatActivity {
      * button method - team B.
      */
     public void redB(View view) {
-        if (lastBall != "redB") {
-            scoreTeamB = scoreTeamB + 1;
-            displayForTeamB(scoreTeamB);
-            potRed = potRed + 1;
-        } else {
-            scoreTeamA = scoreTeamA + 1;
-            displayForTeamA(scoreTeamA);
+        if (potRed < 15) {
+            if (lastBall != "redB") {
+                scoreTeamB = scoreTeamB + 1;
+                displayForTeamB(scoreTeamB);
+                potRed = potRed + 1;
+            } else {
+                scoreTeamA = scoreTeamA + 1;
+                displayForTeamA(scoreTeamA);
+            }
+            lastBall = "redB";
         }
-        lastBall = "redB";
     }
 
     public void blackB(View view) {
@@ -205,6 +211,8 @@ public class MainActivity extends AppCompatActivity {
     public void resetScore(View view) {
         scoreTeamA = 0;
         scoreTeamB = 0;
+        potRed = 0;
+        lastBall = "None";
         displayForTeamA(scoreTeamA);
         displayForTeamB(scoreTeamB);
     }
