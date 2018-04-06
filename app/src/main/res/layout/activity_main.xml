@@ -43,72 +43,65 @@
                 android:id="@+id/button_a_black"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@drawable/roundbuttonblack"
-                android:layout_below="@id/team_a_score"
                 android:layout_alignParentLeft="true"
-                android:onClick="blackA"
-                 />
+                android:layout_below="@id/team_a_score"
+                android:background="@drawable/roundbuttonblack"
+                android:onClick="blackA" />
 
             <Button
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@drawable/roundbuttonpink"
-                android:layout_below="@id/team_a_score"
                 android:layout_alignParentRight="true"
-                android:onClick="pinkA"
-                />
+                android:layout_below="@id/team_a_score"
+                android:background="@drawable/roundbuttonpink"
+                android:onClick="pinkA" />
 
             <Button
                 android:id="@+id/button_a_blue"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@drawable/roundbuttonblue"
+                android:layout_alignParentLeft="true"
                 android:layout_below="@id/button_a_black"
                 android:layout_marginTop="16dp"
-                android:layout_alignParentLeft="true"
-                android:onClick="blueA"
-                />
+                android:background="@drawable/roundbuttonblue"
+                android:onClick="blueA" />
 
             <Button
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@drawable/roundbuttonbrown"
+                android:layout_alignParentRight="true"
                 android:layout_below="@id/button_a_black"
                 android:layout_marginTop="16dp"
-                android:layout_alignParentRight="true"
-                android:onClick="brownA"
-                />
+                android:background="@drawable/roundbuttonbrown"
+                android:onClick="brownA" />
 
             <Button
                 android:id="@+id/button_a_green"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@drawable/roundbuttongreen"
-                android:layout_below="@id/button_a_blue"
-                android:layout_marginTop="16dp"
                 android:layout_alignParentLeft="true"
-                android:onClick="greenA"
-               />
-
-            <Button
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:background="@drawable/roundbuttonyellow"
                 android:layout_below="@id/button_a_blue"
                 android:layout_marginTop="16dp"
-                android:layout_alignParentRight="true"
-                android:onClick="yellowA"
-               />
+                android:background="@drawable/roundbuttongreen"
+                android:onClick="greenA" />
 
             <Button
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@drawable/roundbuttonred"
-                android:layout_below="@id/button_a_green"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/button_a_blue"
                 android:layout_marginTop="16dp"
+                android:background="@drawable/roundbuttonyellow"
+                android:onClick="yellowA" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/button_a_green"
                 android:layout_centerHorizontal="true"
-                android:onClick="redA"
-                 />
+                android:layout_marginTop="16dp"
+                android:background="@drawable/roundbuttonred"
+                android:onClick="redA" />
 
         </RelativeLayout>
 
@@ -151,89 +144,85 @@
                 android:id="@+id/button_b_black"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@drawable/roundbuttonblack"
-                android:layout_below="@id/team_b_score"
                 android:layout_alignParentLeft="true"
-                android:onClick="blackB"
-               />
+                android:layout_below="@id/team_b_score"
+                android:background="@drawable/roundbuttonblack"
+                android:onClick="blackB" />
 
             <Button
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@drawable/roundbuttonpink"
-                android:layout_below="@id/team_b_score"
                 android:layout_alignParentRight="true"
-                android:onClick="pinkB"
-                />
+                android:layout_below="@id/team_b_score"
+                android:background="@drawable/roundbuttonpink"
+                android:onClick="pinkB" />
 
             <Button
                 android:id="@+id/button_b_blue"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@drawable/roundbuttonblue"
+                android:layout_alignParentLeft="true"
                 android:layout_below="@id/button_b_black"
                 android:layout_marginTop="16dp"
-                android:layout_alignParentLeft="true"
-                android:onClick="blueB"
-                />
+                android:background="@drawable/roundbuttonblue"
+                android:onClick="blueB" />
 
             <Button
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@drawable/roundbuttonbrown"
+                android:layout_alignParentRight="true"
                 android:layout_below="@id/button_b_black"
                 android:layout_marginTop="16dp"
-                android:layout_alignParentRight="true"
-                android:onClick="brownB"
-               />
+                android:background="@drawable/roundbuttonbrown"
+                android:onClick="brownB" />
 
             <Button
                 android:id="@+id/button_b_green"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@drawable/roundbuttongreen"
-                android:layout_below="@id/button_b_blue"
-                android:layout_marginTop="16dp"
                 android:layout_alignParentLeft="true"
-                android:onClick="greenB"
-                />
-
-            <Button
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:background="@drawable/roundbuttonyellow"
                 android:layout_below="@id/button_b_blue"
                 android:layout_marginTop="16dp"
-                android:layout_alignParentRight="true"
-                android:onClick="yellowB"
-               />
+                android:background="@drawable/roundbuttongreen"
+                android:onClick="greenB" />
 
             <Button
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@drawable/roundbuttonred"
-                android:layout_below="@id/button_b_green"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/button_b_blue"
                 android:layout_marginTop="16dp"
+                android:background="@drawable/roundbuttonyellow"
+                android:onClick="yellowB" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/button_b_green"
                 android:layout_centerHorizontal="true"
-                android:onClick="redB"
-               />
+                android:layout_marginTop="16dp"
+                android:background="@drawable/roundbuttonred"
+                android:onClick="redB" />
 
         </RelativeLayout>
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/main_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:padding="8dp">
 
         <Button
+            android:id="@+id/foul_button"
             android:layout_width="0dp"
             android:layout_height="64dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_weight="1"
-            android:background="#ff5533"
+            android:background="#bbbbbb"
+            android:onClick="foul"
             android:text="FOUL"
             android:textColor="@android:color/white" />
 
@@ -255,5 +244,53 @@
             android:background="#0a6c03"
             android:onClick="resetScore"
             android:text="START" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/main_button"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:text="potRed:" />
+
+        <TextView
+            android:id="@+id/pot_red_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="potPin:" />
+
+        <TextView
+            android:id="@+id/pot_pin_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Last Ball:" />
+
+        <TextView
+            android:id="@+id/last_ball_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="None" />
+
     </LinearLayout>
 </RelativeLayout>
